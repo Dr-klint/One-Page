@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+.section__aboutus {
+  background-image: url(../img/hero-bg.jpg);
+}
+.card1 {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+.card1:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.about__video {
+  width: 30rem;
+  margin-bottom: 1rem;
+}
+
+.img__testimonial {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.client1 {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+.client1:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.mt-m1 {
+  margin-top: -1rem;
+}
+
+.mt-m6 {
+  margin-top: -9rem;
+}
+
+.icon__dribble,
+.file-earmark-text,
+.speedometer2,
+.stack,
+.display,
+.magnet {
+  position: absolute;
+}
+
+.dribbble:hover .icon__dribble {
+  fill: #f5f5f5;
+}
+
+.dribbble:hover .svg__dribble {
+  fill: #2487ce;
+}
+
+.file-earmark-text__bg:hover .file-earmark-text {
+  fill: #f5f5f5;
+}
+
+.file-earmark-text__bg:hover .svg__file-earmark-text {
+  fill: #ffa76e;
+}
+
+.speedometer2__bg:hover .speedometer2 {
+  fill: #f5f5f5;
+}
+
+.speedometer2__bg:hover .svg__speedometer2 {
+  fill: #e80368;
+}
+
+.stack__bg:hover .stack {
+  fill: #f5f5f5;
+}
+
+.stack__bg:hover .svg__stack {
+  fill: #ffbb2c;
+}
+
+.display__bg:hover .display {
+  fill: #f5f5f5;
+}
+
+.display__bg:hover .svg__display {
+  fill: #ff5828;
+}
+
+.magnet__bg:hover .magnet {
+  fill: #f5f5f5;
+}
+
+.magnet__bg:hover .svg__magnet {
+  fill: #11dbcf;
+}
