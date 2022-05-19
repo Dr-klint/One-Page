@@ -17,7 +17,7 @@
 
   <body>
     <div id="hero-section">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white navbar__page">
         <div class="container">
           <a class="navbar-brand text-primary fs-3" href="#">One Page</a>
           <button
@@ -289,21 +289,21 @@
           </div>
         </div>
         <div
-          class="row bg-light justify-content-center p-5 align-items-center"
+          class="row bg-light justify-content-evenly p-5 align-items-center"
         >
-          <div class="col-lg-3 col-md-6 col-sm-6 align-items-center">
+          <div class="col-lg-3 col-md-5 col-6 d-flex flex-column  align-items-center">
             <div><p class="text-primary fs-2 fw-bold">65</p></div>
             <div><p>Happy Clients</p></div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 align-items-center">
-            <div><p class="text-primary fs-2 fw-bold">85</p></div>
+          <div class="col-lg-3 col-md-5 col-6 d-flex flex-column  align-items-center">
+            <div><p class="text-primary fs-1 fw-bold">85</p></div>
             <div><p>Projects</p></div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 align-items-center">
+          <div class="col-lg-3 col-md-5 col-6 d-flex flex-column  align-items-center">
             <div><p class="text-primary fs-2 fw-bold">30</p></div>
             <div><p>Years of experience</p></div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 align-items-center">
+          <div class="col-lg-3 col-md-5 col-6 d-flex flex-column  align-items-center">
             <div><p class="text-primary fs-2 fw-bold">20</p></div>
             <div><p>Award</p></div>
           </div>
@@ -380,26 +380,26 @@
         </div>
       </section>
       <div class="row bg-light mt-5 py-4 align-items-center px-5 justify-content-center justify-content-lg-center">
-        <div class="col-lg-2 col-md-4 col-sm-4 ">
+        <div class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center ">
           <img class="client1" width="90px" src="img/client-1.png" />
         </div>
-        <div class="col-lg-2 col-md-4-6 col-sm-4">
+        <div class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center">
           <img class="client1" width="90px" src="img/client-2.png" />
         </div>
-        <div class="col-lg-2 col-md-4-6 col-sm-4 ">
+        <div class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center ">
           <img class="client1" width="90px" src="img/client-3.png" />
         </div>
-        <div class="col-lg-2 col-md-4-6 col-sm-4 ">
+        <div class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center ">
           <img class="client1" width="90px" src="img/client-4.png" />
         </div>
-        <div class="col-lg-2 col-md-4-6 col-sm-4 ">
+        <div class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center">
           <img class="client1" width="90px" src="img/client-5.png" />
         </div>
-        <div class="col-lg-2 col-md-4-6 col-sm-4 ">
+        <div class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center ">
           <img class="client1" width="90px" src="img/client-6.png" />
         </div>
       </div>
-      <section class="testimonials pt-5 mt-5 px-5">
+      <section class="testimonials pt-5 mt-5 px-5 d-flex flex-column justify-content-center">
         <div class="text-center">
           <h2 class="text-primary pb-3 fs-1">Testimonials</h2>
           <p>
@@ -480,7 +480,7 @@
     </div>
 
     <section class="section__services bg-light mt-5 pt-5 px-5 px-lg-5">
-<div class="text-center w-auto px-5 mb-5">
+<div class="text-lg-center w-auto px-5 mb-5">
   <h2 class="text-primary pb-3">Services</h2>
   <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 </div>
@@ -574,12 +574,473 @@
     <section class="d-flex flex-column justify-content-center align-items-center bg-primary p-5 text-white">
       <h2 class="fw-bold">Call To Action</h2>
       <p class="text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <button type="button" class="btn btn-outline-light">Call To Action</button>
+      <button type="button" class="btn btn-outline-light btn-text">Call To Action</button>
+    </section>
+    <section class="section__portfolio mt-5 pt-5 px-5 text-center">
+      <h2 class=" text-primary fw-bold ">PORTFOLIO</h2>
+      <p class="px-5 py-3">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <ul id="portfolio-filters" class="list-unstyled d-flex justify-content-center">
+        <li data-filter="*" class="filter-active fs-80 fw-600 px-3">ALL</li>
+        <li data-filter=".filter-app" class="fs-80 fw-600 px-3">APP</li>
+        <li data-filter=".filter-card" class="fs-80 fw-600 px-3">CARD</li>
+        <li data-filter=".filter-web" class="fs-80 fw-600 px-3">WEB</li>
+    </ul>
+      <!-- <div class="filter-button-group">
+        <button data-filter="*" class="portfolio__button">ALL</button>
+        <button data-filter="filter-app" class=" portfolio__button">APP</button>
+        <button data-filter="filter-card" class=" portfolio__button">CARD</button>
+        <button data-filter="filter-web" class="portfolio__button">WEB</button>
+      </div> -->
+      <div class="portfolio-cards mt-4">
+        <div class="row portfolio__grid " data-masonry='{"percentPosition": true }'>
+          <div class="grid-sizer col-lg-4 col-md-6 col-12"></div>
+          <div class="col-lg-4  mb-4 filter-app portfolio-item">
+            <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt="portfolio-img">
+             </div>
+            <div class="portfolio-info">
+              <h4 class="text-light">APP 1</h4>
+              <P class="text-light">APP</P>
+              <div class="portfolio-icon">
+               <a href="#"> <svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#plus" />
+              </svg></a>
+              <a href="#"><svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#link-45deg" />
+              </svg></a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mb-4 filter-web portfolio-item">
+            <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img class="img-fluid" src="img/portfolio-2.jpg" alt="portfolio-img">
+             </div>
+            <div class="portfolio-info">
+              <h4 class="text-light">Web 3</h4>
+              <P class="text-light">Web</P>
+              <div class="portfolio-icon">
+               <a href="#"> <svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#plus" />
+              </svg></a>
+              <a href="#"><svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#link-45deg" />
+              </svg></a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mb-4 filter-app portfolio-item">
+            <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img class="img-fluid" src="img/portfolio-3.jpg" alt="portfolio-img">
+             </div>
+            <div class="portfolio-info">
+              <h4 class="text-light">APP 2</h4>
+              <P class="text-light">APP</P>
+              <div class="portfolio-icon">
+               <a href="#"> <svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#plus" />
+              </svg></a>
+              <a href="#"><svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#link-45deg" />
+              </svg></a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mb-4 filter-card portfolio-item">
+            <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img class="img-fluid" src="img/portfolio-4.jpg" alt="portfolio-img">
+             </div>
+            <div class="portfolio-info">
+              <h4 class="text-light">Card 2</h4>
+              <P class="text-light">Card</P>
+              <div class="portfolio-icon">
+               <a href="#"> <svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#plus" />
+              </svg></a>
+              <a href="#"><svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#link-45deg" />
+              </svg></a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mb-4 filter-web portfolio-item">
+            <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img class="img-fluid" src="img/portfolio-5.jpg" alt="portfolio-img">
+             </div>
+            <div class="portfolio-info">
+              <h4 class="text-light">Web 2</h4>
+              <P class="text-light">Web</P>
+              <div class="portfolio-icon">
+               <a href="#"> <svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#plus" />
+              </svg></a>
+              <a href="#"><svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#link-45deg" />
+              </svg></a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mb-4 filter-app portfolio-item">
+            <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img class="img-fluid" src="img/portfolio-6.jpg" alt="portfolio-img">
+             </div>
+            <div class="portfolio-info">
+              <h4 class="text-light ">APP 3</h4>
+              <P class="text-light">APP</P>
+              <div class="portfolio-icon">
+               <a href="#"> <svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#plus" />
+              </svg></a>
+              <a href="#"><svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#link-45deg" />
+              </svg></a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mb-4 filter-card portfolio-item">
+            <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img class="img-fluid" src="img/portfolio-7.jpg" alt="portfolio-img">
+             </div>
+            <div class="portfolio-info">
+              <h4 class="text-light">Card 1</h4>
+              <P class="text-light">Card</P>
+              <div class="portfolio-icon">
+               <a href="#"> <svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#plus" />
+              </svg></a>
+              <a href="#"><svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#link-45deg" />
+              </svg></a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mb-4 filter-card portfolio-item">
+            <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img class="img-fluid" src="img/portfolio-8.jpg" alt="portfolio-img">
+             </div>
+            <div class="portfolio-info">
+              <h4 class="text-light"> Card 3</h4>
+              <P class="text-light">Card</P>
+              <div class="portfolio-icon">
+               <a href="#"> <svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#plus" />
+              </svg></a>
+              <a href="#"><svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#link-45deg" />
+              </svg></a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mb-4 filter-web portfolio-item">
+            <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img class="img-fluid" src="img/portfolio-9.jpg" alt="portfolio-img">
+             </div>
+            <div class="portfolio-info">
+              <h4 class="text-light">Web 3</h4>
+              <P class="text-light">Web</P>
+              <div class="portfolio-icon">
+               <a href="#"> <svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#plus" />
+              </svg></a>
+              <a href="#"><svg class="bi portfolio__svg" width="40" height="32" fill="#2487ce">
+                <use xlink:href="bootstrap-icons.svg#link-45deg" />
+              </svg></a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__team bg-light my-5 py-5 px-5">
+        <div class="text-center">
+          <h2 class="text-primary fw-bold pb-2">TEAM</h2>
+          <p class="px-5 text-secondary pt-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-12 parent">
+            <img src="img/team-1.jpg" class="img-fluid">
+            <div class="d-flex justify-content-evenly mt-m2 team-icon">
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#twitter" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#facebook" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#instagram" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#linkedin" />
+              </svg>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center bg-white">
+              <h3 class="fs-4 text-primary fw-bold pt-2">Walter White</h3>
+              <p>Chief Executive Officer</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12 parent">
+            <img src="img/team-2.jpg" class="img-fluid">
+            <div class="d-flex justify-content-evenly mt-m2 team-icon">
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#twitter" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#facebook" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#instagram" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#linkedin" />
+              </svg>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center bg-white">
+              <h3 class="fs-4 text-primary fw-bold pt-2">Sarah Jhonson</h3>
+              <p>Product Manager</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12 parent">
+            <img src="img/team-3.jpg" class="img-fluid">
+            <div class="d-flex justify-content-evenly mt-m2 team-icon">
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#twitter" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#facebook" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#instagram" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#linkedin" />
+              </svg>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center bg-white">
+              <h3 class="fs-4 text-primary fw-bold pt-2">William Anderson</h3>
+              <p>CTO</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12 parent">
+            <img src="img/team-4.jpg" class="img-fluid">
+            <div class="d-flex justify-content-evenly mt-m2 team-icon">
+              <svg class="bi team__font " width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#twitter" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#facebook" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#instagram" />
+              </svg>
+              <svg class="bi team__font" width="20" height="32" fill="#124265">
+                <use xlink:href="bootstrap-icons.svg#linkedin" />
+              </svg>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center bg-white">
+              <h3 class="fs-4 text-primary fw-bold pt-2">Amanda Jepson</h3>
+              <p>Accountant</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="pricing px-5 my-5 py-5">
+      <div class="text-center">
+        <h2 class="text-primary fw-bold">PRICING</h2>
+        <P>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</P>
+      </div>
+      <div class="row mt-5 justify-content-center">
+        <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column justify-content-center align-items-center bg-white col__free">
+          <h5 class="pt-4 text-primary fs-5">FREE</h5>
+          <div class="d-flex align-items-center">
+            <sup class="text-primary mt-m1 pe-2 fs-5">$</sup>
+            <p class="text-primary fs-1 pe-2">0</p>
+            <p class="mt-2">/&nbsp; month</p>
+          </div>
+          <p class="text-primary">Aida dere</p>
+          <p class="text-primary">Nec feugiat nisl</p>
+          <p class="text-primary">Nulla at volutpat dola</p>
+          <p class="na">Pharetra massa</p>
+          <p class="na">Massa ultricies mi</p>
+          <button type="button" class="btn btn-outline-primary mb-5">Buy Now</button>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column justify-content-center align-items-center col__business">
+          <h5 class="pt-4 fs-5 ">BUSINESS</h5>
+          <div class="d-flex align-items-center">
+            <sup class=" mt-m1 pe-2 fs-5">$</sup>
+            <p class=" fs-1 pe-2">19</p>
+            <p class="mt-2">/&nbsp; month</p>
+          </div>
+          <p>Aida dere</p>
+          <p>Nec feugiat nisl</p>
+          <p>Nulla at volutpat dola</p>
+          <p>Pharetra massa</p>
+          <p class="na">Massa ultricies mi</p>
+          <button type="button" class="btn btn-outline-light mb-5">Buy Now</button>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12-4 d-flex flex-column justify-content-center align-items-center col__free">
+          <h5 class="pt-4 text-primary fs-5">DEVELOPER</h5>
+          <div class="d-flex align-items-center">
+            <sup class="text-primary mt-m1 pe-2 fs-5">$</sup>
+            <p class="text-primary fs-1 pe-2">29</p>
+            <p class="mt-2">/&nbsp; month</p>
+          </div>
+          <p class="text-primary">Aida dere</p>
+          <p class="text-primary">Nec feugiat nisl</p>
+          <p class="text-primary">Nulla at volutpat dola</p>
+          <p class="text-primary">Pharetra massa</p>
+          <p class="text-primary">Massa ultricies mi</p>
+          <button type="button" class="btn btn-outline-primary mb-5">Buy Now</button>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__questions my-5 px-5 py-5">
+      <div class="text-center">
+        <h2 class="text-primary">Frequently Asked Questions</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+      <div class="row justify-content-center accordion" id="accordionExample">
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <div class="d-flex">
+                <svg class="bi" width="20" height="32" fill="#2487ce">
+                  <use xlink:href="bootstrap-icons.svg#question-circle" />
+                </svg>
+                <p class="mt-2 ps-2 question__paragraph">Non consectetur a erat nam at lectus urna duis? </p>
+              </div>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <div class="d-flex">
+                <svg class="bi" width="20" height="32" fill="#2487ce">
+                  <use xlink:href="bootstrap-icons.svg#question-circle" />
+                </svg>
+                <p class="mt-2 ps-2 question__paragraph">Feugiat scelerisque varius morbi enim nunc?  </p>
+              </div>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <div class="d-flex">
+                <svg class="bi" width="20" height="32" fill="#2487ce">
+                  <use xlink:href="bootstrap-icons.svg#question-circle" />
+                </svg>
+                <p class="mt-2 ps-2 question__paragraph">Dolor sit amet consectetur adipiscing elit? </p>
+              </div>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+              <div class="d-flex">
+                <svg class="bi" width="20" height="32" fill="#2487ce">
+                  <use xlink:href="bootstrap-icons.svg#question-circle" />
+                </svg>
+                <p class="mt-2 ps-2 question__paragraph">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? </p>
+              </div>
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+              <div class="d-flex">
+                <svg class="bi" width="20" height="32" fill="#2487ce">
+                  <use xlink:href="bootstrap-icons.svg#question-circle" />
+                </svg>
+                <p class="mt-2 ps-2 question__paragraph">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?  </p>
+              </div>
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__contact px-5 my-5 py-5">
+      <div class="text-center">
+        <h2 class="text-primary">CONTACT</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+      <div class="row justify-content-center mt-4"><div id="map-container-google-1" class=" map-container" style="height: 500px">
+        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+          style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+     
     </section>
 
       <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+      <script src="js/isotope.pkgd.min.js"></script>
       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/swipper.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <script>
+
+//       // init Isotope
+var $grid = $('.portfolio__grid').isotope({
+  itemSelector: '.portfolio-item',
+        percentPosition: true,
+        masonry: {
+            columnWidth: '.grid-sizer'
+        }
+});
+// filter items on button click
+$('#portfolio-filters').on( 'click', 'li', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+   </script>
+
   </body>
 </html>
